@@ -1,0 +1,20 @@
+<svg width="268" height="246" viewBox="0 0 268 246" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.298 97.0419C45.7338 38.7613 104.079 35.1736 130.322 40.6649C164.744 48.7188 170.969 65.9247 199.165 76.5412C227.361 87.1576 278.261 120.105 266.177 162.571C228.826 274.227 105.682 246.761 76.8595 230.663C60.2607 221.392 -6.9968 169.893 22.298 97.0419Z" fill="#E3F1FF"/>
+<circle cx="143.603" cy="147.65" r="68.8988" fill="white" stroke="#7A7E86" stroke-width="15"/>
+<circle r="7.21297" transform="matrix(-1 0 0 1 143.968 147.284)" fill="white" stroke="#7A7E86" stroke-width="2"/>
+<rect x="141.41" y="92.0982" width="4.38563" height="10.2331" rx="2" fill="#FFD500"/>
+<rect x="141.41" y="193.699" width="4.38563" height="10.2331" rx="2" fill="#FFD500"/>
+<rect x="199.52" y="145.822" width="4.38563" height="10.2331" rx="2" transform="rotate(90 199.52 145.822)" fill="#FFD500"/>
+<rect x="97.9192" y="145.822" width="4.38563" height="10.2331" rx="2" transform="rotate(90 97.9192 145.822)" fill="#FFD500"/>
+<rect x="181.591" y="106.925" width="4.38563" height="10.2331" rx="2" transform="rotate(45 181.591 106.925)" fill="#FFD500"/>
+<rect x="109.749" y="178.768" width="4.38563" height="10.2331" rx="2" transform="rotate(45 109.749 178.768)" fill="#FFD500"/>
+<rect x="102.513" y="110.026" width="4.38563" height="10.2331" rx="2" transform="rotate(-45 102.513 110.026)" fill="#FFD500"/>
+<rect x="174.355" y="181.869" width="4.38563" height="10.2331" rx="2" transform="rotate(-45 174.355 181.869)" fill="#FFD500"/>
+<line x1="143.565" y1="140.34" x2="143.565" y2="111.834" stroke="#7A7E86" stroke-width="3"/>
+<line x1="137.755" y1="147.688" x2="121.675" y2="147.688" stroke="#7A7E86" stroke-width="3"/>
+<path d="M88.4169 0L21.5361 24.4864L1.80078 6.21297L88.4169 0Z" fill="#FFE100"/>
+<path d="M22.998 46.78L21.5361 24.4864L88.4169 0L54.7938 36.9124L22.998 46.78Z" fill="#F7CD04"/>
+<path d="M22.9979 46.4146L30.3073 32.5267L52.6009 23.39L47.4843 39.1052L22.9979 46.4146Z" fill="#E7B400"/>
+<path d="M59.1794 58.8405L30.3074 32.5267L88.4169 0L59.1794 58.8405Z" fill="#FFE100"/>
+<path d="M16.1332 44.8245C-3.05819 70.0472 -19.3528 122.759 69 131.824" stroke="#FFE100" stroke-width="2" stroke-dasharray="5 5"/>
+</svg>
