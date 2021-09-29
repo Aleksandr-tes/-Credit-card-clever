@@ -1,0 +1,149 @@
+/*
+ инпуты с анимацией
+*/
+/* основные стили*/
+.input_head {
+    box-sizing: border-box;
+    width: 100%;
+    height: 3.3em;
+    margin: 0 0 12px;
+    padding: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 9px;
+    background: #fff;
+    resize: none;
+    outline: none;
+    font-size: 1.25em;
+    text-align: center;
+    box-shadow: none;
+    color: #373939;
+}
+
+/*стили приминяемые при фокусе на пустой input*/
+.input_head[required]:focus {
+    border-color: #ffc90a;
+}
+
+/*цвет заголовка input*/
+.input_head[required]:focus + .head_val_def[placeholder]:before {
+    color: #ffc90a;
+}
+
+/*анимация поднятия заголовка на границу input*/
+.input_head[required]:focus + .head_val_def[placeholder]:before,
+.input_head[required]:valid + .head_val_def[placeholder]:before {
+    transition-duration: 0.2s;
+    -webkit-transform: translate(0, -1.9em) scale(0.9, 0.9);
+    transform: translate(0, -1.9em) scale(0.9, 0.9);
+}
+
+/*Отображение ошибки в заголовке input*/
+.input_head[required]:invalid + .head_val_def[placeholder][alt]:before {
+    content: attr(alt);
+}
+
+/*основные стили для заголовка*/
+.input_head[required] + .head_val_def[placeholder] {
+    display: block;
+    pointer-events: none;
+    line-height: 3.3em;
+    margin-top: -4.6em;
+    margin-bottom: 1em;
+}
+
+.input_head[required] + .head_val_def[placeholder]:before {
+    content: attr(placeholder);
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0 2px;
+    color: #898989;
+    white-space: nowrap;
+    transition: 0.3s ease-in-out;
+    background-image: linear-gradient(to bottom, #fff, #fff);
+    background-size: 100% 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+/*автоподнятия заголовка*/
+.lift_label_inp {
+    -webkit-transform: translate(0, -1.9em) scale(0.9, 0.9);
+    transform: translate(0, -1.9em) scale(0.9, 0.9);
+}
+
+/*дополнительная информация снизу input*/
+.input_head_info {
+    margin-top: -19px;
+    font-size: 0.8em;
+}
+
+/*
+ ошибка ввода
+*/
+.input_head_error {
+    box-sizing: border-box;
+    width: 100%;
+    height: 3.3em;
+    margin: 0 0 14px;
+    padding: 14px;
+    border: 1px solid #e82c2c;
+    border-radius: 9px;
+    background: #fff;
+    resize: none;
+    outline: none;
+    font-size: 1.25em;
+    text-align: center;
+    box-shadow: none;
+    color: #e82c2c;
+}
+
+/*стили приминяемые при фокусе на пустой input*/
+.input_head_error[required]:focus {
+    border-color: #e82c2c;
+}
+
+/*цвет заголовка input*/
+.input_head_error[required]:focus + .head_val_def[placeholder]:before {
+    color: #e82c2c;
+}
+
+/*анимация поднятия заголовка на границу input*/
+.input_head_error[required]:focus + .head_val_def[placeholder]:before,
+.input_head_error[required]:valid + .head_val_def[placeholder]:before {
+    transition-duration: 0.2s;
+    -webkit-transform: translate(0, -1.9em) scale(0.9, 0.9);
+    transform: translate(0, -1.9em) scale(0.9, 0.9);
+}
+
+/*Отображение ошибки в заголовке input*/
+.input_head_error[required]:invalid + .head_val_def[placeholder][alt]:before {
+    content: attr(alt);
+}
+
+/*основные стили для заголовка*/
+.input_head_error[required] + .head_val_def[placeholder] {
+    display: block;
+    pointer-events: none;
+    line-height: 3.3em;
+    margin-top: -4.6em;
+    margin-bottom: 1em;
+}
+
+.input_head_error[required] + .head_val_def[placeholder]:before {
+    content: attr(placeholder);
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0 2px;
+    color: #e82c2c;
+    white-space: nowrap;
+    transition: 0.3s ease-in-out;
+    background-image: linear-gradient(to bottom, #fff, #fff);
+    background-size: 100% 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+

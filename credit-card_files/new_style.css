@@ -1,0 +1,151 @@
+.map-site-b {
+	font-size: 15px;
+}
+
+.map-site-b h5 {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 600;
+	margin: 0 0 10px;
+}
+
+.map-site__grid {
+	display: table;
+	width: 100%;
+}
+
+.map-site__col {
+	width: 33.333%;
+	float: left;
+	padding-right: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.site-list,
+.site-list ul {
+	margin: 5px 0 0px 0;
+	padding: 0px 0 0 25px;
+}
+.site-list li {
+	margin: 5px 0;
+}
+
+.site-list a {
+	color: #525252;
+}
+
+.map-site__title {
+	margin: 0 0 15px;
+}
+
+
+.menu-dd {
+	min-width: 190px;
+	background: #fff;
+	position: absolute;
+	z-index: 2;
+	top: 35px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: 0;
+	visibility: hidden;
+	-moz-transform: scale(0.8) translateY(-20px);
+    -ms-transform: scale(0.8) translateY(-20px);
+    -webkit-transform: scale(0.8) translateY(-20px);
+    transform: scale(0.8) translateY(-20px);
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -moz-transition: all 0.3s cubic-bezier(0.87, -0.41, 0.19, 1.2);
+    -o-transition: all 0.3s cubic-bezier(0.87, -0.41, 0.19, 1.2);
+    -webkit-transition: all 0.3s cubic-bezier(0.87, -0.41, 0.19, 1.2);
+    transition: all 0.3s cubic-bezier(0.87, -0.41, 0.19, 1.2);
+}
+
+.menu-dd.show {
+	visibility: visible;
+	opacity: 1;
+	-moz-transform: scale(1) translateY(0) rotateX(0);
+    -ms-transform: scale(1) translateY(0) rotateX(0);
+    -webkit-transform: scale(1) translateY(0) rotateX(0);
+    transform: scale(1) translateY(0) rotateX(0);
+}
+
+.menu-dd:before {
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	border: 12px solid transparent;
+    border-bottom: 12px solid #fff;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.top_menu .menu-dd a {
+	color: #0688bd;
+}
+
+.menu-dd a {
+	padding: 10px 18px;
+	display: block;
+	color: #0688bd;
+	border-bottom: 1px solid #d9dada;
+}
+
+.top_menu .menu-dd a:before {
+	display: none
+}
+
+.menu-dd a:last-child {
+	border-bottom: none
+}
+
+
+@media only screen and (max-width: 759px) {
+	.menu-dd {
+		top: 50px;
+		left: auto;
+		right: -30px;
+	}
+
+	.map-site__col {
+		width: 100%;
+		padding-right: 0;
+		margin-bottom: 30px;
+	}
+}
+
+#deposit #sum {
+	width: 101px !important;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 760px) {
+	#deposit #sum {
+	    width: 90px !important;
+	}
+	.cash_slider_wrap, .time_slider_wrap {
+		margin-right: 10px;
+	}
+
+	.deposit_calc .form_label {
+		width: 105px;
+	}
+
+	.cash_count, .time_count {
+		margin-right: -70px;
+	}
+}
+
+@media only screen and (max-width: 759px) and (min-width: 0px) {
+	#deposit #sum {
+		width: 85px !important;
+	}
+}

@@ -1,0 +1,133 @@
+@media (min-width: 1300px) and (max-width: 1459px) {
+    html {
+        width: 100%;
+    }
+
+    .header_wrap {
+        width: 100%;
+    }
+
+    .header_inner {
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    .sub_menu_inner {
+        width: auto;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    .sub_menu_inner ul li {
+        width: 230px;
+    }
+
+    .sub_menu_inner ul li:nth-child(2),
+    .sub_menu_inner ul li:nth-child(5) {
+        height: 48px;
+    }
+
+    .sub_menu_inner.private_menu ul li:nth-child(2),
+    .sub_menu_inner.private_menu ul li:nth-child(5),
+    .sub_menu_inner.corp_menu ul li:nth-child(2),
+    .sub_menu_inner.corp_menu ul li:nth-child(5) {
+        height: 25px;
+    }
+
+    .content_inner {
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    .ft_inner, .fb_inner {
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    .sub_menu_inner.private_menu {
+        height: auto;
+    }
+
+    .sub_menu_inner.private_menu ul li:nth-child(7) a::before {
+        background-position: -240px -3px;
+        margin-top: -16px;
+    }
+
+    .sub_menu_inner.private_menu ul {
+        margin: 5px 0 5px 20px;
+    }
+
+    .sub_menu_inner.private_menu ul li {
+        width: 230px;
+        margin: 15px 0;
+    }
+
+    .sub_menu_inner.private_menu ul li:nth-child(7) {
+    / / height: 25 px;
+    / / padding-top: 0 px;
+    }
+
+    .main_slider_inner {
+        width: 100%;
+    }
+
+    .ms_text {
+        left: 43px;
+    }
+
+    .currencies_box {
+        width: 320px;
+    }
+
+    table.currencies_table {
+        width: 320px;
+    }
+
+    .main_news_wrapper {
+        margin: 0 320px 0 0;
+    }
+
+    .main_news_item:last-child {
+        margin: 0 -10px 0 0;
+    }
+
+    /*.ibm_item:nth-child(3) {margin-right: -1px;}
+    .ibm_item:nth-child(4) {display: none;}*/
+    .set_coins_selector {
+        display: none;
+    }
+
+    .items_box {
+        width: 1260px;
+    }
+
+    .coins_wrap {
+        width: 1260px;
+        margin: 0 auto;
+    }
+
+    .coins_item:nth-child(4), .coins_item:nth-child(8),
+    .coins_item:nth-child(12), .coins_item:nth-child(16),
+    .coins_item:nth-child(20), .coins_item:nth-child(24),
+    .coins_item:nth-child(28), .coins_item:nth-child(32) {
+        margin-right: -1px;
+    }
+
+    .set_coins_box {
+        margin: 0 auto 50px auto;
+    }
+
+    .deposit_calc .time_count {
+        margin: -45px 0 0 805px;
+        position: absolute;
+    }
+
+    .i-plus, .i-minus {
+        right: -1000px;
+        left: -1000px;
+        margin: auto;
+    }
+}

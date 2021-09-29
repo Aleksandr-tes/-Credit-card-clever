@@ -1,0 +1,65 @@
+@media (min-width: 1460px) {
+    html {
+      min-width: 1440px;
+    }
+    body {
+      min-width: 1440px;
+    }
+
+    .header_wrap {
+        height: 180px; width: 100%;
+        background-color: #000;
+    }
+    .header_inner {
+        width: 1400px;
+    }
+    .header_phone {left: 433px;}
+    .top_menu ul li {
+        margin: 0 0 0 91px;
+    }
+    .search_box .search_text {
+        width: 380px;
+    }
+
+    .sub_menu_inner {
+        width: 1398px;
+        height: auto;
+    }
+    .sub_menu_inner ul li {
+        width: 225px;
+    }
+
+    .content_inner {
+        width: 1400px;
+    }
+    .ft_inner, .fb_inner {
+        width: 1400px;
+    }
+    .set_coins_selector {display: none;}
+
+    .coins_wrap {
+        width: 1260px;
+        margin: 0 auto;
+    }
+    .coins_item:nth-child(4), .coins_item:nth-child(8),
+    .coins_item:nth-child(12), .coins_item:nth-child(16),
+    .coins_item:nth-child(20), .coins_item:nth-child(24),
+    .coins_item:nth-child(28), .coins_item:nth-child(32)
+    {margin-right: -1px;}
+
+    .deposit_calc .time_count {
+        margin: -45px 0 0 805px;
+        position: absolute;
+    }
+
+    .sub_menu_inner ul li {
+        width: 215px !important;
+        //margin: 12px 0;
+    }
+
+    .i-plus, .i-minus {
+        right: -1000px;
+        left: -1000px;
+        margin: auto;
+    }
+}

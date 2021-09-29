@@ -1,0 +1,105 @@
+.pays{
+    width: 490px;
+    margin: 1% auto;
+    border: 2px solid #eff3f7;
+}
+.pays .header {
+    background-color: #FFD300;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pays .pays-oper-type, .pays .pays-add-info {
+    background-color: #f7f7f7;
+    padding: 10px;
+    min-height: 50px;
+    border-bottom: 2px solid #eff3f7;
+}
+.pays .border-bottom {
+    border-bottom: 2px solid #eff3f7;
+}
+.text--bold{
+    font-weight: 700;
+}
+.text_sm {
+    font-size: 1.2em;
+}
+.text_md {
+    font-size: 1.4em;
+}
+.text_md_lg {
+    font-size: 1.4em;
+}
+.text_lg {
+    font-size: 2.4em;
+}
+.line-form{
+    margin-top: 0.9em;
+}
+.sum .integer{
+    font-size: 4em;
+}
+.sum .fractional{
+    font-size: 3em;
+}
+.sum .vnm{
+    font-size: 3.3em;
+    margin-left: 5px;
+    color: #d9dada;
+}
+.pays .pays-body-info{
+    padding: 10px;
+    min-height: 50px;
+    border-bottom: 2px solid #eff3f7;
+}
+.caption-info {
+    font-size: 1.1em;
+    color: #c5c6c6;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.value-info{
+    font-size: 1.7em;
+}
+.pays .pays-confirm-block {
+    padding: 10px;
+    min-height: 50px;
+    padding-bottom: 20px;
+}
+.text-confirm {
+    font-size: 0.9em;
+}
+div.error-mes {
+    margin-top: -0.2em;
+    margin-bottom: 0.5em;
+    /*display: none;*/
+    font-size: 0.7em;
+}
+.error-message {
+    color: #e82c2c;
+    margin: 0px;
+    text-align: center;
+}
+.pays-confirm-block .cansel {
+    width: 120px;
+}
+.pays-confirm-block .confirm {
+    width: 130px;
+}
+.pays-confirm-block .btn_gr {
+    height: 35px;
+    line-height: 35px;
+}
+.important-text-red {
+    color: red;
+}
+@media screen and (max-width: 490px) {
+    .pays {
+        width: 98%
+    }
+    .pays .header {
+        height: 60px;
+    }
+}

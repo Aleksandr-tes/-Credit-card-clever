@@ -1,0 +1,572 @@
+@media (min-width: 760px) and (max-width: 1023px) {
+    .main_wrap {
+        padding: 0 0 235px 0;
+    }
+
+    .header_wrap {
+        height: 180px;
+    }
+
+    .header_inner {
+        min-width: 740px;
+        max-width: 100%;
+        height: 180px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        padding: 0 20px;
+    }
+
+    .logo {
+        top: 57px;
+        left: 20px;
+    }
+
+    .logo img {
+        width: 220px;
+    }
+
+    .main_menu {
+        top: 138px;
+        left: 20px;
+    }
+
+    .main_menu ul li {
+        padding: 0 11px 0 27px;
+    }
+
+    .main_menu ul li a {
+        font-size: 19px;
+    }
+
+    .header_phone {
+        padding: 0 0 0 50px;
+        top: 62px;
+        left: 270px;
+    }
+
+    .hp_num {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .hp_dsc {
+        font-size: 13px;
+    }
+
+    .search_box {
+        right: 20px;
+        top: 64px;
+    }
+
+    .search_box .search_text {
+        width: 220px;
+    }
+
+    .top_menu {
+        top: 12px;
+        right: 20px;
+        width: 100%;
+        text-align: right;
+    }
+
+    .top_menu ul {
+    }
+
+    .top_menu ul li {
+        margin: 0 28px 0 0;
+    }
+
+    .top_menu ul li:last-child {
+        margin: 0 0px 0 0;
+    }
+
+    .top_menu ul li a {
+        font-size: 13px;
+    }
+
+    .sub_menu_wrap {
+        padding: 0 20px;
+    }
+
+    .sub_menu_inner {
+        width: auto;
+        height: auto;
+    }
+
+    .sub_menu_inner ul {
+        margin: 10px 0 0 22px;
+    }
+
+    .sub_menu_inner ul li {
+        width: 276px !important;
+        margin: 0 0 3px 0;
+    }
+
+    .content_inner {
+        min-width: 740px;
+        max-width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        padding: 0 20px;
+    }
+
+    .footer_wrap {
+        height: 225px;
+        margin: -225px 0 0 0;
+    }
+
+    .footer_top {
+        height: 80px;
+    }
+
+    .ft_inner, .fb_inner {
+        padding: 0 20px;
+        min-width: 700px;
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    .footer_menu {
+        top: 30px;
+        left: 20px;
+    }
+
+    .footer_menu ul li a {
+        font-size: 14px;
+    }
+
+    .social_links {
+        top: 35px;
+        right: 20px;
+        left: initial;
+        margin: 0;
+        position: absolute;
+    }
+
+    .social_links ul {
+        margin: 0 0 0 165px;
+    }
+
+    .footer_info {
+        top: 32px;
+        left: 20px;
+    }
+
+    .creator {
+        top: 91px;
+        left: 20px;
+    }
+
+    .news_year {
+        position: relative;
+        overflow: hidden;
+        padding: 7px 0;
+        height: 20px;
+        margin-bottom: 24px;
+    }
+
+    .news_year ul li {
+        float: left;
+        margin: 0 2px 0 0;
+    }
+
+    .news_year ul li a.active {
+        width: 73px;
+    }
+
+    h1 {
+        margin-bottom: 33px;
+    }
+
+    .left_margin {
+        margin: 0;
+    }
+
+    .sub_menu_inner.private_menu {
+        height: auto;
+    }
+
+    .sub_menu_inner.private_menu ul li:nth-child(7) a::before {
+        background-position: -238px -3px;
+        margin-top: -15px;
+    }
+
+    .sub_menu_inner.private_menu ul {
+        margin: 5px 0 5px 20px;
+    }
+
+    .sub_menu_inner.private_menu ul li {
+        width: 250px;
+        margin: 10px 0;
+    }
+
+    .sub_menu_inner.private_menu ul li:nth-child(7) {
+        height: 25px;
+        padding-top: 0px;
+    }
+
+    .sub_menu_inner.corp_menu {
+        height: auto;
+    }
+
+    .sub_menu_inner.corp_menu ul li:nth-child(1) a::before {
+        margin-top: -15px;
+        background-position: 8px 7px;
+    }
+
+    .sub_menu_inner.corp_menu ul li:nth-child(6) a::before {
+        margin-top: -15px;
+        background-position: -927px 7px;
+    }
+
+    .sub_menu_inner.corp_menu ul li:nth-child(7) a::before {
+        margin-top: -15px;
+        background-position: -610px -96px;
+    }
+
+    .sub_menu_inner.corp_menu ul {
+        margin: 5px 0 5px 20px;
+    }
+
+    .sub_menu_inner.corp_menu ul li {
+        width: 250px;
+        margin: 10px 0;
+    }
+
+    .sub_menu_inner.corp_menu ul li:nth-child(1),
+    .sub_menu_inner.corp_menu ul li:nth-child(6),
+    .sub_menu_inner.corp_menu ul li:nth-child(7) {
+        height: 25px;
+        padding-top: 0px;
+    }
+
+    .main_menu ul li.active:nth-child(2) {
+        margin-left: 10px;
+    }
+
+    .main_page_sub_menu {
+        position: relative;
+    }
+
+    .main_slider {
+        height: 315px;
+        margin-top: 20px;
+        background-color: #cdcece;
+    }
+
+    .main_slider_slides_box {
+        height: 315px;
+    }
+
+    .ms_slide {
+        height: 315px;
+        width: 1024px;
+    }
+
+    .ms_slide img {
+        height: 315px;
+        width: 1024px;
+    }
+
+    .main_slider_inner {
+        width: 100%;
+        height: 315px;
+    }
+
+    .ms_text {
+        top: 36px;
+        left: 56px;
+    }
+
+    .msd_ttl {
+        font-size: 43px;
+        width: 350px;
+        line-height: 52px;
+    }
+
+    .msd_desc {
+        font-size: 25px;
+        width: 350px;
+        line-height: 30px;
+    }
+
+    .main_slider_controls {
+        display: none;
+    }
+
+    .main_news_item {
+        width: 300px;
+        margin-bottom: 40px;
+    }
+
+    .currencies_box {
+        width: 300px;
+    }
+
+    table.currencies_table {
+        width: 300px;
+    }
+
+    table.currencies_table th, table.currencies_table td {
+        width: auto;
+        padding-right: 0px;
+    }
+
+    .main_news_wrapper {
+        margin: 0 220px 0 0;
+    }
+
+    .main_news_item:last-child {
+        display: none;
+    }
+
+    table.currencies_table td {
+        font-size: 14px;
+    }
+
+    .mni_txt {
+        font-size: 14px;
+    }
+
+    .mni_ttl a {
+        font-size: 15px;
+    }
+
+    .ib_item:nth-child(4), .ib_item:nth-child(8), .ib_item:nth-child(12), .ib_item:nth-child(16) {
+        margin-right: 20px;
+    }
+
+    .product_img {
+        width: 340px;
+    }
+
+    .product_desc {
+        margin: 20px 0 0 0;
+        height: auto;
+        padding-bottom: 19px;
+        clear: both;
+    }
+
+    .form_box.tovar_form {
+        width: auto;
+        min-height: 336px;
+        float: none;
+        margin-left: 360px;
+    }
+
+    .ibm_item:nth-child(2) {
+        margin-right: -1px;
+    }
+
+    .ibm_item:nth-child(4), .ibm_item:nth-child(3) {
+        display: none;
+    }
+
+    .permanent_checker {
+        display: block;
+        margin: 22px 0 0 0;
+    }
+
+    .cash_count, .time_count {
+        margin-right: -10px;
+    }
+
+    .dep_area_select {
+        display: block;
+        margin-bottom: 26px;
+        font-size: 14px;
+    }
+
+    .dep_head_checker {
+        margin-left: 0;
+    }
+
+    .dep_list table {
+        width: 100%;
+        min-width: auto;
+        font-size: 14px;
+    }
+
+    .dep_list table td {
+        width: auto !important;
+    }
+
+    .filter_checker {
+        font-size: 14px;
+    }
+
+    .dep_menu {
+        font-size: 14px;
+    }
+
+    .time_select .value_item:last-child {
+        margin: 10px 0 0 133px;
+    }
+
+    .dep_list table th, .deposit_list table th {
+        font-weight: normal;
+    }
+
+    .deposit_list table {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .deposit_list table th, .deposit_list table td {
+        padding: 10px 10px 9px 10px;
+    }
+
+    .deposit_list table th.deposit_name, .deposit_list table td.deposit_name {
+        text-align: left;
+        min-width: 135px;
+        padding: 16px 10px 9px 16px;
+    }
+
+    .deposit_list {
+        font-size: 14px;
+    }
+
+    .deposit_list table th.deposit_button, .deposit_list table td.deposit_button {
+        display: none;
+    }
+
+    .archieve_box, .audit_box, .text_box {
+        margin: 0px;
+    }
+
+    .ddb_item {
+        font-size: 14px;
+    }
+
+    .arch_quarter_title {
+        font-size: 22px;
+    }
+
+    .coins_item {
+        width: 338px;
+        min-height: 472px;
+    }
+
+    .coins_ttl {
+        margin: 3px 0 3px 19px;
+        height: 72px;
+        font-size: 14px;
+    }
+
+    .coins_image {
+        width: 338px;
+    }
+
+    .set_coins_item {
+        width: 338px;
+    }
+
+    /*.forms_wrap {display: none !important;}*/
+    .set_coins_selector {
+        display: none;
+    }
+
+    ol.search_list li.search_item {
+        font-size: 15px;
+        margin: 0 0 22px 0;
+    }
+
+    .search_item_ttl a {
+        font-size: 15px;
+    }
+
+    .search_item_ttl {
+        margin-bottom: 2px;
+    }
+
+    .search_item_text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .job_name span {
+        font-size: 22px;
+    }
+
+    a#send_resume {
+        display: none;
+    }
+
+    .job_text {
+        margin-bottom: 0;
+    }
+
+    .items_box {
+        width: 620px;
+    }
+
+    .ib_item:nth-child(2), .ib_item:nth-child(4),
+    .ib_item:nth-child(6), .ib_item:nth-child(8),
+    .ib_item:nth-child(10), .ib_item:nth-child(12),
+    .ib_item:nth-child(14), .ib_item:nth-child(16),
+    .ib_item:nth-child(18), .ib_item:nth-child(20),
+    .ib_item:nth-child(22), .ib_item:nth-child(24) {
+        margin-right: -1px;
+    }
+
+    .items_box_min {
+        width: 620px;
+    }
+
+    .set_coins_box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .coins_wrap {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .coins_item:nth-child(2), .coins_item:nth-child(4),
+    .coins_item:nth-child(6), .coins_item:nth-child(8),
+    .coins_item:nth-child(10), .coins_item:nth-child(12),
+    .coins_item:nth-child(14), .coins_item:nth-child(16),
+    .coins_item:nth-child(18), .coins_item:nth-child(20),
+    .coins_item:nth-child(22), .coins_item:nth-child(24) {
+        margin-right: -1px;
+    }
+
+
+    .i-plus, .i-minus {
+        right: -1000px;
+        left: -1000px;
+        margin: auto;
+    }
+
+
+    .part_box {
+        width: 620px;
+    }
+
+    .part_item:nth-child(2n) {
+        margin-right: -1px;
+    }
+
+    .part_item:nth-child(2n):hover {
+        margin: -10px -11px -270px -10px;
+    }
+
+    .desktop_header {
+        display: block;
+    }
+
+    .mobile_header {
+        display: none;
+    }
+
+
+    .show_desktop {
+        display: block;
+    }
+
+    .show_mobile {
+        display: none;
+    }
+}

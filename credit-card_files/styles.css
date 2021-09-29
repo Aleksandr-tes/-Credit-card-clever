@@ -1,0 +1,9 @@
+@media (min-width: 1460px){
+	.main_menu {
+		left: 0px;
+	}
+	
+	.header_inner {
+		padding: 0px;
+	}
+}
